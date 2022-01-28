@@ -82,14 +82,9 @@ section, footer{
     /* border:1px solid grey; */
   }
 
-a{
-    text-decoration:none;
-    letter-spacing:3px;
-    color:#4F4F4F;
-    font-size: 2rem;
-}
 
-a:hover{
+
+.toplinks:hover{
     color:#fcb131;
 }
 
@@ -97,13 +92,16 @@ a:hover{
     width: 50%;
     display: flex;
     justify-content: space-evenly;
-
+    text-decoration:none;
+    letter-spacing:3px;
+    color:#4F4F4F;
+    font-size: 2rem;
 }
 header nav{
     display:flex;
     align-items:center;
     width: 100%;
-    margin:2%;
+    padding:3%;
 }
 .logo{
     width: 35%;
@@ -115,10 +113,11 @@ header nav{
 }
 
 .trafficimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 78%;
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    margin: auto;
+    padding: 4%;
 }
 
 .top-content {
@@ -149,6 +148,8 @@ header nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-bottom: 2px solid #ff4b00;
+    padding: 4%;
 }
 
 .middle-content .boxes .box {
@@ -211,6 +212,25 @@ header nav{
 footer {
     width: 100%;
     background-color: #ff4b00;
+}
+
+footer nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.bottomlinks:hover{
+    color:#fcb131;
+}
+
+.bottomlinks{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    letter-spacing:3px;
+    color:white;
+    font-size: 2rem;
 }
 
 /*About Page Styles*/

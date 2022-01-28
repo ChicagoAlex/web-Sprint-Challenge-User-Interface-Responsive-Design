@@ -235,5 +235,31 @@ footer nav{
 
 /*About Page Styles*/
 
+.containerpage div{
+    width: 35%;
+    padding: 2% 2%;
+    margin: 2% 2%;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.containerpage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutdive{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.worktogether{
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+}
+
 
 /*Responsive Styles*/

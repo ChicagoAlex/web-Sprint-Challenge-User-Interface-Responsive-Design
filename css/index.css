@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -74,6 +74,30 @@ section, footer{
 }
 
 /*Top Section Styles*/
+a{
+    text-decoration:none;
+    letter-spacing:3px;
+    color:#4F4F4F;
+}
+
+a:hover{
+    color:#fcb131;
+}
+
+.toplinks{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+header nav{
+    display:flex;
+    height: 10vh;
+    background-color: bisque;
+    align-items:center;
+    width: 100%;
+}
+
 
 .top-content {
     display: flex;
@@ -112,6 +136,37 @@ section, footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
 }
 
 /*Bottom Section Styles*/

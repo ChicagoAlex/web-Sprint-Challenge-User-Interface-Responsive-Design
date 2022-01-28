@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -79,7 +79,6 @@ section, footer{
     padding:0;
     margin:0;
     max-width:100%;
-    /* border:1px solid grey; */
   }
 
 
@@ -89,7 +88,6 @@ section, footer{
 }
 
 .toplinks{
-    width: 50%;
     display: flex;
     justify-content: space-evenly;
     text-decoration:none;
@@ -100,16 +98,25 @@ section, footer{
 header nav{
     display:flex;
     align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
     padding:3%;
 }
 .logo{
     width: 35%;
 }
+
+
+
 .links{
     display:flex;
     justify-content: space-around;
     width: 60%;
+}
+
+.links div{
+    margin: 3px;
 }
 
 .trafficimg{
@@ -198,6 +205,7 @@ header nav{
 .bottom-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .bottom-content .text-container {
@@ -217,6 +225,7 @@ footer {
 footer nav{
     display:flex;
     justify-content: space-evenly;
+    flex-wrap:wrap;
 }
 
 .bottomlinks:hover{
@@ -261,5 +270,30 @@ footer nav{
     padding: 50px;
 }
 
-
 /*Responsive Styles*/
+@media (max-width: 500px) {
+    .containerpage div{
+        width: 80%;
+    }
+    footer nav div{
+        width: 55%;
+    }
+    .bottomlinks{
+        margin: auto;
+        width: 50%;
+    }
+    .logo{
+        width: 55%;
+    }
+    .middle-content .boxes .box {
+        width: 48%;
+    }
+    .top-content .text-container{
+        width:100%;
+    }
+    .bottom-content .text-container {
+        width:100%;
+        padding: 10px;
+    }
+
+  }
